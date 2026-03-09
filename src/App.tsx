@@ -19,6 +19,7 @@ import {
 } from 'lucide-react';
 import { cn } from './lib/utils';
 import ServicesPage from './components/ServicesPage';
+import ExpertisePage from './components/ExpertisePage';
 
 // --- Components ---
 
@@ -44,6 +45,9 @@ const Navbar = ({ currentPage, setCurrentPage }: { currentPage: string, setCurre
     if (id === 'services') {
       setCurrentPage('services');
       window.scrollTo(0, 0);
+    } else if (id === 'expertise') {
+      setCurrentPage('expertise');
+      window.scrollTo(0, 0);
     } else if (id === 'home') {
       setCurrentPage('home');
       window.scrollTo(0, 0);
@@ -60,7 +64,7 @@ const Navbar = ({ currentPage, setCurrentPage }: { currentPage: string, setCurre
   return (
     <nav className={cn(
       "fixed top-0 left-0 right-0 z-50 transition-all duration-300 px-6 py-4",
-      (isScrolled || currentPage === 'services') ? "bg-white/90 backdrop-blur-md shadow-sm py-3" : "bg-transparent"
+      (isScrolled || currentPage !== 'home') ? "bg-white/90 backdrop-blur-md shadow-sm py-3" : "bg-transparent"
     )}>
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <div className="flex items-center gap-2 cursor-pointer" onClick={() => handleNavClick('home')}>
@@ -69,7 +73,7 @@ const Navbar = ({ currentPage, setCurrentPage }: { currentPage: string, setCurre
           </div>
           <span className={cn(
             "text-xl font-display font-bold tracking-tight",
-            (isScrolled || currentPage === 'services') ? "text-slate-900" : "text-white"
+            (isScrolled || currentPage !== 'home') ? "text-slate-900" : "text-white"
           )}>
             BELMONT<span className="text-emerald-500">CONST</span>
           </span>
@@ -83,7 +87,7 @@ const Navbar = ({ currentPage, setCurrentPage }: { currentPage: string, setCurre
               onClick={() => handleNavClick(link.id)}
               className={cn(
                 "text-sm font-medium transition-colors hover:text-emerald-500",
-                (isScrolled || currentPage === 'services') ? "text-slate-600" : "text-white/90",
+                (isScrolled || currentPage !== 'home') ? "text-slate-600" : "text-white/90",
                 currentPage === link.id && "text-emerald-500"
               )}
             >
@@ -101,9 +105,9 @@ const Navbar = ({ currentPage, setCurrentPage }: { currentPage: string, setCurre
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
         >
           {isMobileMenuOpen ? (
-            <X className={(isScrolled || currentPage === 'services') ? "text-slate-900" : "text-white"} />
+            <X className={(isScrolled || currentPage !== 'home') ? "text-slate-900" : "text-white"} />
           ) : (
-            <Menu className={(isScrolled || currentPage === 'services') ? "text-slate-900" : "text-white"} />
+            <Menu className={(isScrolled || currentPage !== 'home') ? "text-slate-900" : "text-white"} />
           )}
         </button>
       </div>
@@ -545,7 +549,7 @@ export default function App() {
     <div className="min-h-screen font-sans text-slate-900 selection:bg-emerald-500/30">
       <Navbar currentPage={currentPage} setCurrentPage={setCurrentPage} />
       <main>
-        {currentPage === 'home' ? (
+        {currentPage === 'home' && (
           <>
             <Hero />
             <Services />
@@ -553,9 +557,9 @@ export default function App() {
             <Expertise />
             <Contact />
           </>
-        ) : (
-          <ServicesPage />
         )}
+        {currentPage === 'services' && <ServicesPage />}
+        {currentPage === 'expertise' && <ExpertisePage />}
       </main>
       <Footer />
     </div>
