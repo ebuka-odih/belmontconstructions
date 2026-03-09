@@ -17,7 +17,7 @@ const ServicesPage = () => {
       <section className="max-w-7xl mx-auto px-6 text-center mb-32">
         <div className="flex justify-center mb-8">
           <div className="relative w-16 h-16">
-             <Construction className="w-16 h-16 text-orange-500" />
+             <Construction className="w-16 h-16 text-emerald-600" />
           </div>
         </div>
         
@@ -42,7 +42,7 @@ const ServicesPage = () => {
 
           {/* Construction Management */}
           <div className="flex flex-col items-center">
-            <div className="w-32 h-32 rounded-full bg-orange-500 flex items-center justify-center mb-8 shadow-lg shadow-orange-500/20">
+            <div className="w-32 h-32 rounded-full bg-emerald-600 flex items-center justify-center mb-8 shadow-lg shadow-emerald-600/20">
               <LayoutGrid className="w-12 h-12 text-white" />
             </div>
             <h3 className="text-2xl font-display font-black text-slate-900 mb-4">Construction Management</h3>
@@ -74,12 +74,12 @@ const ServicesPage = () => {
           <div className="grid md:grid-cols-3 gap-8">
             {/* Commercial Construction */}
             <div className="bg-white border border-slate-200 p-10 relative overflow-hidden group">
-              <Building2 className="w-12 h-12 text-orange-500 mb-8" />
+              <Building2 className="w-12 h-12 text-emerald-600 mb-8" />
               <h3 className="text-2xl font-display font-black text-slate-900 mb-6">Commercial Construction</h3>
               <p className="text-slate-600 mb-12 leading-relaxed">
                 We specialize in commercial projects that build thriving business environments. From office complexes to retail spaces, we create structures that support growth and community needs.
               </p>
-              <button className="w-12 h-12 rounded-full border border-slate-200 flex items-center justify-center hover:bg-orange-500 hover:text-white hover:border-orange-500 transition-all">
+              <button className="w-12 h-12 rounded-full border border-slate-200 flex items-center justify-center hover:bg-emerald-600 hover:text-white hover:border-emerald-600 transition-all">
                 <ArrowRight className="w-5 h-5" />
               </button>
               <div className="absolute bottom-0 right-0 opacity-5 pointer-events-none">
@@ -91,12 +91,12 @@ const ServicesPage = () => {
 
             {/* General Contracting */}
             <div className="bg-white border border-slate-200 p-10 relative overflow-hidden group">
-              <Construction className="w-12 h-12 text-orange-500 mb-8" />
+              <Construction className="w-12 h-12 text-emerald-600 mb-8" />
               <h3 className="text-2xl font-display font-black text-slate-900 mb-6">General Contracting</h3>
               <p className="text-slate-600 mb-12 leading-relaxed">
                 As your trusted contractor, we manage every stage of the construction journey, from planning and procurement to final execution, ensuring timelines are met and quality is prioritized.
               </p>
-              <button className="w-12 h-12 rounded-full border border-slate-200 flex items-center justify-center hover:bg-orange-500 hover:text-white hover:border-orange-500 transition-all">
+              <button className="w-12 h-12 rounded-full border border-slate-200 flex items-center justify-center hover:bg-emerald-600 hover:text-white hover:border-emerald-600 transition-all">
                 <ArrowRight className="w-5 h-5" />
               </button>
               <div className="absolute bottom-0 right-0 opacity-5 pointer-events-none">
@@ -108,12 +108,12 @@ const ServicesPage = () => {
 
             {/* Residential Construction */}
             <div className="bg-white border border-slate-200 p-10 relative overflow-hidden group">
-              <Home className="w-12 h-12 text-orange-500 mb-8" />
+              <Home className="w-12 h-12 text-emerald-600 mb-8" />
               <h3 className="text-2xl font-display font-black text-slate-900 mb-6">Residential Construction</h3>
               <p className="text-slate-600 mb-12 leading-relaxed">
                 We build homes that blend comfort, durability, and thoughtful design. Whether a single-family house or a multi-unit complex, our residential projects are crafted to last for generations.
               </p>
-              <button className="w-12 h-12 rounded-full border border-slate-200 flex items-center justify-center hover:bg-orange-500 hover:text-white hover:border-orange-500 transition-all">
+              <button className="w-12 h-12 rounded-full border border-slate-200 flex items-center justify-center hover:bg-emerald-600 hover:text-white hover:border-emerald-600 transition-all">
                 <ArrowRight className="w-5 h-5" />
               </button>
               <div className="absolute bottom-0 right-0 opacity-5 pointer-events-none">
