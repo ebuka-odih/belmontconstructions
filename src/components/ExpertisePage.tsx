@@ -79,7 +79,7 @@ const ExpertisePage = () => {
           >
             <div className="aspect-square rounded-3xl overflow-hidden shadow-2xl">
               <img 
-                src="https://images.unsplash.com/photo-1503387762-592dee58c160?auto=format&fit=crop&q=80&w=1000" 
+                src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&q=80&w=1000" 
                 alt="Construction Engineering Expertise" 
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
