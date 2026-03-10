@@ -36,7 +36,6 @@ const Navbar = ({ currentPage, setCurrentPage }: { currentPage: string, setCurre
   const navLinks = [
     { name: 'Home', id: 'home' },
     { name: 'Services', id: 'services' },
-    { name: 'Portfolio', id: 'portfolio' },
     { name: 'Expertise', id: 'expertise' },
     { name: 'Contact', id: 'contact' },
   ];
@@ -75,7 +74,7 @@ const Navbar = ({ currentPage, setCurrentPage }: { currentPage: string, setCurre
             "text-xl font-display font-bold tracking-tight",
             (isScrolled || currentPage !== 'home') ? "text-slate-900" : "text-white"
           )}>
-            BELMONT<span className="text-emerald-500">CONST</span>
+            BELMONT
           </span>
         </div>
 
@@ -94,9 +93,6 @@ const Navbar = ({ currentPage, setCurrentPage }: { currentPage: string, setCurre
               {link.name}
             </button>
           ))}
-          <button className="bg-emerald-600 hover:bg-emerald-700 text-white px-5 py-2 rounded-full text-sm font-semibold transition-all">
-            Get a Quote
-          </button>
         </div>
 
         {/* Mobile Toggle */}
@@ -130,9 +126,6 @@ const Navbar = ({ currentPage, setCurrentPage }: { currentPage: string, setCurre
                 {link.name}
               </button>
             ))}
-            <button className="bg-emerald-600 text-white px-5 py-3 rounded-xl text-sm font-semibold mt-2">
-              Get a Quote
-            </button>
           </motion.div>
         )}
       </AnimatePresence>
@@ -488,7 +481,7 @@ const Footer = () => {
                 <Building2 className="text-white w-6 h-6" />
               </div>
               <span className="text-xl font-display font-bold tracking-tight">
-                BELMONT<span className="text-emerald-500">CONST</span>
+                BELMONT
               </span>
             </div>
             <p className="text-slate-400 text-sm leading-relaxed">
