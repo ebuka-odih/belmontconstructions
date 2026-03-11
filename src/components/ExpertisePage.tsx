@@ -131,6 +131,66 @@ const ExpertisePage = () => {
         </div>
       </section>
 
+      {/* CEO Section */}
+      <section className="max-w-7xl mx-auto px-6 mb-32">
+        <div className="grid lg:grid-cols-2 gap-16 items-center">
+          <motion.div 
+            initial={{ opacity: 0, x: -20 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="order-2 lg:order-1"
+          >
+            <h4 className="text-emerald-600 font-bold text-xs uppercase tracking-widest mb-4">Meet Our CEO</h4>
+            <h2 className="text-4xl md:text-5xl font-display font-black text-slate-900 mb-2">Bryan Jendrick Hargis</h2>
+            <p className="text-emerald-600 font-bold text-lg mb-8">Chief Executive Officer & Founder</p>
+            
+            <div className="space-y-6 text-slate-600 text-lg leading-relaxed">
+              <p>
+                Bryan Hargis is the visionary leader behind Belmont Constructions success. With over 30 years of experience in the construction industry, Bryan has built a reputation for excellence, innovation, and unwavering commitment to quality.
+              </p>
+              <p>
+                Under his leadership, Belmont Construction has grown from a small local contractor to a respected construction company serving clients across Arizona and beyond. Bryan's hands-on approach and attention to detail ensure that every project meets the highest standards of quality and safety.
+              </p>
+              <p>
+                His passion for sustainable building practices and community development drives the company's mission to create lasting structures that enhance the communities we serve.
+              </p>
+            </div>
+          </motion.div>
+          
+          <motion.div 
+            initial={{ opacity: 0, scale: 0.95 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="order-1 lg:order-2"
+          >
+            <div className="relative">
+              <div className="absolute -top-6 -right-6 w-32 h-32 bg-emerald-100 rounded-full blur-2xl opacity-60" />
+              <div className="relative rounded-[2.5rem] overflow-hidden shadow-2xl border-8 border-white">
+                <img 
+                  src="https://res.cloudinary.com/dpyr6uoei/image/upload/v1773194319/WhatsApp_Image_2026-03-10_at_5.13.54_PM_o0jllm.jpg" 
+                  alt="Bryan Jendrick Hargis - CEO of Belmont" 
+                  className="w-full h-auto object-cover"
+                  referrerPolicy="no-referrer"
+                />
+              </div>
+              <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-2xl shadow-xl border border-slate-100">
+                <div className="flex items-center gap-3">
+                  <div className="w-12 h-12 bg-emerald-600 rounded-full flex items-center justify-center text-white">
+                    <Users className="w-6 h-6" />
+                  </div>
+                  <div>
+                    <div className="text-slate-900 font-black">30+ Years</div>
+                    <div className="text-slate-500 text-xs font-bold uppercase tracking-wider">Industry Experience</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </motion.div>
+        </div>
+      </section>
+
       {/* Methodology Section */}
       <section className="bg-emerald-600 py-24 rounded-[4rem] mx-6 overflow-hidden relative">
         <div className="absolute top-0 right-0 opacity-10 pointer-events-none">
