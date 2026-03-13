@@ -142,15 +142,15 @@ const ExpertisePage = () => {
             className="order-2 lg:order-1"
           >
             <h4 className="text-emerald-600 font-bold text-xs uppercase tracking-widest mb-4">Meet Our CEO</h4>
-            <h2 className="text-4xl md:text-5xl font-display font-black text-slate-900 mb-2">Bryan Jendrick Hargis</h2>
+            <h2 className="text-4xl md:text-5xl font-display font-black text-slate-900 mb-2">Andrew Jendrick Yaffe</h2>
             <p className="text-emerald-600 font-bold text-lg mb-8">Chief Executive Officer & Founder</p>
             
             <div className="space-y-6 text-slate-600 text-lg leading-relaxed">
               <p>
-                Bryan Hargis is the visionary leader behind Belmont Constructions success. With over 30 years of experience in the construction industry, Bryan has built a reputation for excellence, innovation, and unwavering commitment to quality.
+                Andrew Yaffe is the visionary leader behind Belmont Constructions success. With over 30 years of experience in the construction industry, Andrew has built a reputation for excellence, innovation, and unwavering commitment to quality.
               </p>
               <p>
-                Under his leadership, Belmont Construction has grown from a small local contractor to a respected construction company serving clients across Arizona and beyond. Bryan's hands-on approach and attention to detail ensure that every project meets the highest standards of quality and safety.
+                Under his leadership, Belmont Construction has grown from a small local contractor to a respected construction company serving clients across Arizona and beyond. Andrew's hands-on approach and attention to detail ensure that every project meets the highest standards of quality and safety.
               </p>
               <p>
                 His passion for sustainable building practices and community development drives the company's mission to create lasting structures that enhance the communities we serve.
@@ -170,7 +170,7 @@ const ExpertisePage = () => {
               <div className="relative rounded-[2.5rem] overflow-hidden shadow-2xl border-8 border-white">
                 <img 
                   src="https://res.cloudinary.com/dpyr6uoei/image/upload/v1773194319/WhatsApp_Image_2026-03-10_at_5.13.54_PM_o0jllm.jpg" 
-                  alt="Bryan Jendrick Hargis - CEO of Belmont" 
+                  alt="Andrew Jendrick Yaffe - CEO of Belmont" 
                   className="w-full h-auto object-cover"
                   referrerPolicy="no-referrer"
                 />
