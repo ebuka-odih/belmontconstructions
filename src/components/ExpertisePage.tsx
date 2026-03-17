@@ -150,7 +150,7 @@ const ExpertisePage = () => {
                 Andrew Yaffe is the visionary leader behind Belmont Constructions success. With over 30 years of experience in the construction industry, Andrew has built a reputation for excellence, innovation, and unwavering commitment to quality.
               </p>
               <p>
-                Under his leadership, Belmont Construction has grown from a small local contractor to a respected construction company serving clients across Arizona and beyond. Andrew's hands-on approach and attention to detail ensure that every project meets the highest standards of quality and safety.
+                Under his leadership, Belmont Construction has grown from a small local contractor to a respected construction company serving clients across California and beyond. Andrew's hands-on approach and attention to detail ensure that every project meets the highest standards of quality and safety.
               </p>
               <p>
                 His passion for sustainable building practices and community development drives the company's mission to create lasting structures that enhance the communities we serve.
