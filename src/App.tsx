@@ -409,7 +409,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <div className="text-emerald-200 text-xs font-bold uppercase tracking-widest">Call Us</div>
-                    <div className="font-bold">+1 (555) 123-4567</div>
+                    <a href="tel:2029485446" className="font-bold hover:text-white transition-colors">(202) 948-5446</a>
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
@@ -418,7 +418,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <div className="text-emerald-200 text-xs font-bold uppercase tracking-widest">Email Us</div>
-                    <div className="font-bold">contact@belmontconstructions.com</div>
+                    <div className="font-bold">support@belmontconstructions.com</div>
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
@@ -427,7 +427,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <div className="text-emerald-200 text-xs font-bold uppercase tracking-widest">Visit Us</div>
-                    <div className="font-bold">123 Engineering Way, Tech City, TC 90210</div>
+                    <div className="font-bold">918 Mission Avenue Suite 200, Oceanside, CA 92054</div>
                   </div>
                 </div>
               </div>
